@@ -9,7 +9,7 @@ sentry = Sentry(app, dsn='http://7fe4ca23adb74d4d92f5d17167e66919:8fce1ff465b445
 def hello_world():
     print('hey')
     try:
-        paca = paca107*2
+        paca = paca3737*2
     except NameError:
         sentry.captureException()
     return Response(status=200)
